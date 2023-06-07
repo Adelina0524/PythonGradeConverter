@@ -2,7 +2,7 @@
 pointsPossible = 100
 #type student's name below after the input (in the "" :"")
 #scroll down to the bottom for typing in the numeric grade
-studentname = input("Student Name:")
+studentname = input("Teddy:")
 
 
 def calcthegrade():
@@ -20,7 +20,7 @@ def calcthegrade():
 
 try:
     #type the numeric score the student recieved below(after input in the " ")
-    score = int(input("Student score:"))
+    score = int(input("100:"))
     calcthegrade()
 except Exception:
     print("Please provide valid number")
