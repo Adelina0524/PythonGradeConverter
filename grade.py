@@ -1,8 +1,8 @@
 
 pointsPossible = 100
-#type student's name below in the input (delete input and type the name)
+#type student's name below after the input (in the "" :"")
 #scroll down to the bottom for typing in the numeric grade
-studentname = Barney("Student Name:")
+studentname = input("Student Name:")
 
 
 def calcthegrade():
@@ -19,8 +19,8 @@ def calcthegrade():
     print("{} - {}".format(studentname, grade))
 
 try:
-    #type the numeric score the student recieved below( erase the word 'input' and type the number.
-    score = int(100("Student score:"))
+    #type the numeric score the student recieved below(after input in the " ")
+    score = int(input("Student score:"))
     calcthegrade()
 except Exception:
     print("Please provide valid number")
