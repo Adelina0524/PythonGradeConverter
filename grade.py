@@ -1,7 +1,10 @@
 
 pointsPossible = 100
+#type student's name below in the input (delete input and type the name)
+#scroll down to the bottom for typing in the numeric grade
+studentname = Barney("Student Name:")
 
-studentname = input("Student Name:")
+
 def calcthegrade():
     if 100 >= score >= 90:
         grade = "A"
@@ -16,7 +19,8 @@ def calcthegrade():
     print("{} - {}".format(studentname, grade))
 
 try:
-    score = int(input("Student score:"))
+    #type the numeric score the student recieved below( erase the word 'input' and type the number.
+    score = int(100("Student score:"))
     calcthegrade()
 except Exception:
     print("Please provide valid number")
